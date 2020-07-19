@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Biomes</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[@Name = "GU_StoneBlocksBase"]/stuffProps/categories</xpath>
+				<value>
+					<li>Stony</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName = "AB_CrystalWood"]/stuffProps/categories</xpath>
+				<value>
+					<li>Woody</li>
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName = "AB_MushroomWoodLog"]/stuffProps/categories</xpath>
+				<value>
+					<li>Woody</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName = "AB_AlcyoniteChunk"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic</li>
+				</value>
+			</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
+

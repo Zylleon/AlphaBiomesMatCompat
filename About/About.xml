@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+  <name>Alpha Biomes: Materials Compatibility Patch</name>
+  <author>Zylle</author>
+  <supportedVersions>
+	<li>1.0</li>
+	<li>1.1</li>
+   </supportedVersions>
+   <packageId>zylle.AlphaBiomesMatsCompat</packageId>
+  <description>Patches the stone, wood, and metal from Alpha Biomes to also count as their vanilla equivalents.
+
+This means:
+* Anything that uses "any wood" can now be made with red wood, crystaline wood, and mushroom stalks
+* Anything that uses "any stone" can now use alpha biomes stone
+* Metal items can use alcyonite chunks.
+* New maps can spawn ruins made of Alpha Biomes materials
+* Anything from Alpha Biomes that requires these materials, like the exotic walls, will continue to work normally
+
+Mushroom stalk fences! Mushroom war masks! Mushroom plate armor! Cragstone braziers! Mushroom herb boxes! Mushroom thrones! Mushroom cribs! Mushroom axes! Rose quartz stuff, I guess, if you're weird.
+
+This mod is NOT affiliated with Alpha Biomes. Dont complain to them about this mod, complain to me.
+
+-----
+
+Github: https://github.com/Zylleon/AlphaBiomesMatCompat/releases/latest
+Discord: https://discord.gg/4EFv76C
+Support me: https://ko-fi.com/zylleon
+
+</description>
+</ModMetaData>
